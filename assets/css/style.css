@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.min-100vh {
+    min-height: 100vh;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding-bottom: 50px;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: burlywood;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.circle.on {
+    background-color: yellow;
+    box-shadow: 0 0 40px 25px yellow;
+    border-color: black;
+}
